@@ -86,7 +86,7 @@
             
             
             await model.fitDataset(convertedTrainingData, 
-                             {epochs:10,
+                             {epochs:30,
                               validationData: convertedTestingData,
                               callbacks:{
                                   onEpochEnd: async(epoch, logs) =>{
